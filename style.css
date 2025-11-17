@@ -1,0 +1,99 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.demo {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(25, 30, 30);
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 1s, border 0.3s;
+}
+
+.fizz:hover {
+    background-color: beige;
+}
+
+.buzz:hover {
+    transform: translateY(-5px);
+}
+
+.fizzbuzz:hover {
+    transform: rotate(40deg);
+}
+
+.controls {
+    background-color: rgb(238, 229, 229);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-group label {
+    font-size: 12px;
+}
+
+.input-group input {
+    padding: 8px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border: 2px solid rgb(2, 219, 2);
+}
+
+#generate {
+    background-color: rgb(2, 219, 2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.5s, transform 0.75s;
+    cursor: pointer;
+}
+
+#generate:hover {
+    background-color: rgb(3, 199, 3);
+    font-weight: bold;
+}
+
+#generate:active {
+    transform: scale(0.9);
+}
+
+.puntajes{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>FizzBuzz Matrix</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>MEMORY GRID</h1>
+
+    <div class="controls">
+      <div class="input-group">
+        <label for="dimension">Dimensión (n x n)</label>
+        <input type="number" id="dimension" value="5" min="1" max="30">
+      </div>
+
+      <div class="input-group">
+        <label for="cajitas">Cajas</label>
+        <input type="number" id="cajas-divisor" value="2" min="1" max="30">
+      </div>
+
+      <div class="input-group">
+        <label for="tiempo">Segundos</label>
+        <input type="number" id="tiempo-divisor" value="3" min="1" max="30">
+      </div>
+
+      <button id="generate">INICIAR</button>
+    </div>
+    <div class="puntajes">
+      <h3>Aciertos: <span id="miPuntajeCorrecto"></span></h3>
+      <h3>Fallos: <span id="miPuntajeFallo"></span></h3>
+    </div>
+    <div id="matrix-container"></div>
+
+  </main>
+</body>
+</html> 
